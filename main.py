@@ -143,13 +143,11 @@ df = pd.DataFrame({
 df.set_index('Index', inplace=True)
 
 # Save DataFrame to parquet file with index
-#df.to_parquet('business_data.parquet', engine='pyarrow', index=True)
+df.to_parquet('business_data.parquet', engine='pyarrow', index=True)
 
-df = pd.read_parquet('business_data.parquet')
+# Connect to PostgreSQL cloud isntance (elephantsql) and load the data
+db_link = "postgresql://username:password@host:port/database')"
+engine = db.create_engine(db_link)
+df.to_sql('business_data', engine, if_exists='replace')
 
-# Display the first few rows
-print(df.head())
-
-# Alternatively, use df.info() for a concise summary
-print(df.info())
 
