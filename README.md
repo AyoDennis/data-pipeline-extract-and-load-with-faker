@@ -1,4 +1,4 @@
-# data-pipeline-with-fake
+# data-pipeline-with-faker (Extract and Load)
 
 Certainly! Here’s a detailed and professional `README.md` file content tailored for the provided code, designed to showcase the project effectively in your portfolio:
 
