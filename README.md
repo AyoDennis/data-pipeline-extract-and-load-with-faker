@@ -10,8 +10,6 @@ Certainly! Here’s a detailed and professional `README.md` file content tailore
 
 This project demonstrates the use of Python to generate synthetic business data for various categories including patient information, order details, payment methods, shipping details, medical product information, and customer support records. The data is generated using the `Faker` library and is organized into a structured format suitable for analysis and storage.
 
-![Data Generation](https://via.placeholder.com/800x400?text=Business+Data+Generation)
-
 ## Table of Contents
 
 - [Overview](#overview)
